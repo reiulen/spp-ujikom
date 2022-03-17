@@ -1,4 +1,4 @@
-<x-layout-component title="Kelas">
+<x-layout-component title="SPP">
 
                     <x-breadcrumb-component page="Pencatatan SPP">
                         <a href="{{ route('spp.create') }}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
