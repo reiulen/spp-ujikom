@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -8,17 +9,17 @@ use Illuminate\Database\Eloquent\Model;
 
 class Siswa extends Authenticatable
 {
-    protected $table = 'siswa';
+    protected $table = 'siswas';
     protected $guarded = ['id'];
     use HasFactory;
 
-    public function spp(){
+    public function spp()
+    {
         return $this->belongsto(SPP::class);
     }
 
-    public function kelas(){
+    public function kelas()
+    {
         return $this->belongsto(Kelas::class);
     }
 }
-
-

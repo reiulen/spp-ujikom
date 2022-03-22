@@ -45,7 +45,6 @@
                                                 <option selected disabled>-- Pilih Level --</option>
                                                 <option value="Admin">Admin</option>
                                                 <option value="Petugas">Petugas</option>
-                                                <option value="Siswa">Siswa</option>
                                             </select>
                                         @error('level')
                                             {{ $message }}

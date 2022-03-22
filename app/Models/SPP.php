@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class SPP extends Model
 {
-    protected $table = 'spp';
+    protected $table = 'spps';
     protected $guarded = ['id'];
 
     use HasFactory;
